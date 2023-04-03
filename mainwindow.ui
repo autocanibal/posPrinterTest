@@ -40,39 +40,13 @@
      <string>Total</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_11">
-    <property name="geometry">
-     <rect>
-      <x>590</x>
-      <y>510</y>
-      <width>80</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Card</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_12">
-    <property name="geometry">
-     <rect>
-      <x>670</x>
-      <y>510</y>
-      <width>80</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Cash</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="pushButton_13">
     <property name="geometry">
      <rect>
-      <x>770</x>
-      <y>510</y>
-      <width>80</width>
-      <height>24</height>
+      <x>799</x>
+      <y>543</y>
+      <width>51</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="text">
@@ -84,88 +58,102 @@
      <rect>
       <x>40</x>
       <y>90</y>
-      <width>731</width>
-      <height>351</height>
+      <width>801</width>
+      <height>361</height>
      </rect>
     </property>
    </widget>
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>450</y>
+      <x>10</x>
+      <y>520</y>
       <width>541</width>
       <height>121</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout">
-     <item row="0" column="0">
-      <widget class="QPushButton" name="pushButton">
+     <item row="1" column="3">
+      <widget class="QPushButton" name="pushButton_8">
        <property name="text">
-        <string>PushButton</string>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="1">
-      <widget class="QPushButton" name="pushButton_3">
-       <property name="text">
-        <string>PushButton</string>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="2">
-      <widget class="QPushButton" name="pushButton_5">
-       <property name="text">
-        <string>PushButton</string>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="3">
-      <widget class="QPushButton" name="pushButton_7">
-       <property name="text">
-        <string>PushButton</string>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="4">
-      <widget class="QPushButton" name="pushButton_9">
-       <property name="text">
-        <string>PushButton</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="0">
-      <widget class="QPushButton" name="pushButton_2">
-       <property name="text">
-        <string>PushButton</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="1">
-      <widget class="QPushButton" name="pushButton_4">
-       <property name="text">
-        <string>PushButton</string>
+        <string>Back Office</string>
        </property>
       </widget>
      </item>
      <item row="1" column="2">
       <widget class="QPushButton" name="pushButton_6">
        <property name="text">
-        <string>PushButton</string>
+        <string>Open Drawer</string>
        </property>
       </widget>
      </item>
-     <item row="1" column="3">
-      <widget class="QPushButton" name="pushButton_8">
+     <item row="0" column="5">
+      <widget class="QPushButton" name="pushButton_9">
        <property name="text">
-        <string>PushButton</string>
+        <string>Receipt On</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="text">
+        <string>Delivery</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="text">
+        <string>Discount</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>Hold Sale</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="text">
+        <string>Price Change</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="text">
+        <string>List Items</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="5">
+      <widget class="QPushButton" name="pushButton_10">
+       <property name="text">
+        <string>Print Receipt</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QPushButton" name="pushButton_7">
+       <property name="text">
+        <string>Pay Out</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="4">
+      <widget class="QPushButton" name="pushButton_14">
+       <property name="text">
+        <string>Refund</string>
        </property>
       </widget>
      </item>
      <item row="1" column="4">
-      <widget class="QPushButton" name="pushButton_10">
+      <widget class="QPushButton" name="pushButton_15">
        <property name="text">
-        <string>PushButton</string>
+        <string>Cash Up Report</string>
        </property>
       </widget>
      </item>
@@ -205,6 +193,71 @@
      </item>
      <item>
       <widget class="QLCDNumber" name="lcdNumber"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButton_16">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>540</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Touch Menu</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_17">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>610</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Open Table</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Receipt">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>60</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Receipt No:</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>658</x>
+      <y>521</y>
+      <width>141</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton_12">
+       <property name="text">
+        <string>Cash (+)</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_11">
+       <property name="text">
+        <string>Card (-)</string>
+       </property>
+      </widget>
      </item>
     </layout>
    </widget>
